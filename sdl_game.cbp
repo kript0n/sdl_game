@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="sdl_game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\sdl_game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\Program Files\CodeBlocks\MinGW\lib\libmingw32.a" />
+					<Add library="C:\Program Files\CodeBlocks\MinGW\lib\libSDLmain.a" />
+					<Add library="C:\Program Files\CodeBlocks\MinGW\lib\libSDL.dll.a" />
+					<Add library="C:\Program Files\CodeBlocks\MinGW\lib\SDL_image.lib" />
+					<Add library="C:\Program Files\CodeBlocks\MinGW\lib\libwinmm.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\sdl_game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="CApp.cpp" />
+		<Unit filename="CApp.h" />
+		<Unit filename="CApp_CheckWinner.cpp" />
+		<Unit filename="CApp_OnCleanup.cpp" />
+		<Unit filename="CApp_OnEvent.cpp" />
+		<Unit filename="CApp_OnInit.cpp" />
+		<Unit filename="CApp_OnLoop.cpp" />
+		<Unit filename="CApp_OnRender.cpp" />
+		<Unit filename="Events\CEvent.cpp" />
+		<Unit filename="Events\CEvent.h" />
+		<Unit filename="surface\CSurface.cpp" />
+		<Unit filename="surface\CSurface.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

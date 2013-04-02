@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1362669112 source:e:\projects\sdl_game\capp_oncleanup.cpp
+	"CApp.h"
+
+1362679249 e:\projects\sdl_game\capp.h
+	<SDL/SDL.h>
+	<fstream>
+	<windows.h>
+	"surface/CSurface.h"
+	"Events/CEvent.h"
+
+1362672549 source:e:\projects\sdl_game\capp_onevent.cpp
+	"CApp.h"
+
+1362669059 source:e:\projects\sdl_game\capp_oninit.cpp
+	"CApp.h"
+
+1362240682 source:e:\projects\sdl_game\capp_onloop.cpp
+	"CApp.h"
+
+1362239194 source:e:\projects\sdl_game\capp_onrender.cpp
+	"CApp.h"
+
+1362677267 source:e:\projects\sdl_game\capp.cpp
+	"CApp.h"
+
+1362152030 e:\projects\sdl_game\csurface.h
+	<SDL/SDL.h>
+
+1362151921 source:e:\projects\sdl_game\csurface.cpp
+	"CSurface.h"
+
+1362672434 e:\projects\sdl_game\events\cevent.h
+	<SDL/SDL.h>
+
+1362672813 source:e:\projects\sdl_game\events\cevent.cpp
+	"CEvent.h"
+	<iostream>
+	<windows.h>
+
+1362196890 e:\projects\sdl_game\surface\csurface.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1362678906 source:e:\projects\sdl_game\surface\csurface.cpp
+	"CSurface.h"
+
+1362678928 source:e:\projects\sdl_game\capp_checkwinner.cpp
+	"CApp.h"
+
+1362671963 e:\projects\sdl_game\cappnet\cnet.h
+	<winsock.h>
+	<windows.h>
+	<iostream>
+
+1362415073 source:e:\projects\sdl_game\cappnet\cnet.cpp
+	"CNet.h"
+
